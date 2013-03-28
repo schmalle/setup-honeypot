@@ -61,4 +61,6 @@ Add
    
 to add a mountpoint honeypot, which points to /data/honeypot.   
     
+Please note that this file ("fileserver.conf") does not necessarily exists.
+
   
