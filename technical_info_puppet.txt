@@ -34,7 +34,7 @@ sudo apt-get install puppet
 	server =   <your server name>
 	
 	
-Enable communicaions between client and server:
+Enable communications between client and server:
 
 
 1. Start the client and first ensure, that the client can communicate with the server
@@ -62,5 +62,10 @@ Add
 to add a mountpoint honeypot, which points to /data/honeypot.   
     
 Please note that this file ("fileserver.conf") does not necessarily exists.
+
+5. Start the client
+
+sudo  puppet agent --no-daemonize --logdest console --server flakedev.no-ip.org
+
 
   
