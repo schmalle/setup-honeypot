@@ -65,7 +65,7 @@ Please note that this file ("fileserver.conf") does not necessarily exists.
 
 5. Start the client
 
-sudo  puppet agent --no-daemonize --logdest console --server flakedev.no-ip.org
+sudo  puppet agent --no-daemonize --logdest console --server <your server name>
 
 
   

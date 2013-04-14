@@ -12,6 +12,9 @@ scp -P $2 mysql.sql $3@$1:/data/honeypot/mysql.sql
 scp -P $2 kippo.cfg.dist $3@$1:/data/honeypot/kippo.cfg
 scp -P $2 start.sh $3@$1:/data/honeypot/start.sh
 scp -P $2 kippo.sh $3@$1:/data/honeypot/kippo.sh
+scp -P $2 tomcact_context.xml $3@$1:/data/honeypot/tomcat_context.xml
+scp -P $2 logfile $3@$1:/data/honeypot/logfile
+
 
 scp -P $2 handleservletpot.sh $3@$1:/data/honeypot/handleservletpot.sh
 
