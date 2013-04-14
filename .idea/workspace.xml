@@ -2,31 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91f8a4bf-0178-4e3d-9f02-61ba01b62fe5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/base.pp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/basesetup.pp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/handleservletpot.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/installdb.pp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kippo.pp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kippo.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/servletpot.pp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tomcact_context.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base.pp" afterPath="$PROJECT_DIR$/base.pp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/basesetup.pp" afterPath="$PROJECT_DIR$/basesetup.pp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/copy.sh" afterPath="$PROJECT_DIR$/copy.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/copyonmaster.sh" afterPath="$PROJECT_DIR$/copyonmaster.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql.sql" afterPath="$PROJECT_DIR$/mysql.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.txt" afterPath="$PROJECT_DIR$/readme.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site.pp" afterPath="$PROJECT_DIR$/site.pp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sshd_config" afterPath="$PROJECT_DIR$/sshd_config" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/technical_info_puppet.txt" afterPath="$PROJECT_DIR$/technical_info_puppet.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="setup-honeypot.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="91f8a4bf-0178-4e3d-9f02-61ba01b62fe5" time="1365051068988" ignored="false" />
-    <file path="/base.pp" changelist="91f8a4bf-0178-4e3d-9f02-61ba01b62fe5" time="1365361034543" ignored="false" />
-    <file path="/basesetup.pp" changelist="91f8a4bf-0178-4e3d-9f02-61ba01b62fe5" time="1365362126346" ignored="false" />
+    <file path="/Dummy.txt" changelist="91f8a4bf-0178-4e3d-9f02-61ba01b62fe5" time="1365926903612" ignored="false" />
+    <file path="/base.pp" changelist="91f8a4bf-0178-4e3d-9f02-61ba01b62fe5" time="1365622781695" ignored="false" />
+    <file path="/basesetup.pp" changelist="91f8a4bf-0178-4e3d-9f02-61ba01b62fe5" time="1365622459410" ignored="false" />
     <file path="/kippo.pp" changelist="91f8a4bf-0178-4e3d-9f02-61ba01b62fe5" time="1365451639991" ignored="false" />
     <file path="/site.pp" changelist="91f8a4bf-0178-4e3d-9f02-61ba01b62fe5" time="1365362836768" ignored="false" />
     <file path="/servletpot.pp" changelist="91f8a4bf-0178-4e3d-9f02-61ba01b62fe5" time="1365363611290" ignored="false" />
     <file path="/copyonmaster.sh" changelist="91f8a4bf-0178-4e3d-9f02-61ba01b62fe5" time="1365359879090" ignored="false" />
-    <file path="/copy.sh" changelist="91f8a4bf-0178-4e3d-9f02-61ba01b62fe5" time="1365450456928" ignored="false" />
-    <file path="/technical_info_puppet.txt" changelist="91f8a4bf-0178-4e3d-9f02-61ba01b62fe5" time="1364842153504" ignored="false" />
+    <file path="/copy.sh" changelist="91f8a4bf-0178-4e3d-9f02-61ba01b62fe5" time="1365623378447" ignored="false" />
+    <file path="/technical_info_puppet.txt" changelist="91f8a4bf-0178-4e3d-9f02-61ba01b62fe5" time="1365928692518" ignored="false" />
     <file path="$PROJECT_DIR$/../IdeaProjects/scanit_scanner/scannerscripts/arachni.sh" changelist="91f8a4bf-0178-4e3d-9f02-61ba01b62fe5" time="1364930566146" ignored="false" />
     <file path="$PROJECT_DIR$/../IdeaProjects/scanit_scanner/copy.sh" changelist="91f8a4bf-0178-4e3d-9f02-61ba01b62fe5" time="1364930584721" ignored="false" />
     <file path="$PROJECT_DIR$/../IdeaProjects/GSC-Voting/src/com/dtag/quiz/client/ASyncCallBackQuestion.java" changelist="91f8a4bf-0178-4e3d-9f02-61ba01b62fe5" time="1365159299810" ignored="false" />
@@ -45,6 +40,7 @@
     <file path="/handleservletpot.sh" changelist="91f8a4bf-0178-4e3d-9f02-61ba01b62fe5" time="1365361454290" ignored="false" />
     <file path="/mysql.sql" changelist="91f8a4bf-0178-4e3d-9f02-61ba01b62fe5" time="1365364577440" ignored="false" />
     <file path="/readme.txt" changelist="91f8a4bf-0178-4e3d-9f02-61ba01b62fe5" time="1365451565699" ignored="false" />
+    <file path="/tomcact_context.xml" changelist="91f8a4bf-0178-4e3d-9f02-61ba01b62fe5" time="1365622632970" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +55,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -96,6 +91,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -105,46 +101,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="copy.sh" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/copy.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="610" selection-end="610" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="base.pp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/base.pp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="127" selection-end="127" vertical-scroll-proportion="0.0">
+            <state line="41" column="59" selection-start="807" selection-end="807" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="basesetup.pp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/basesetup.pp">
+      <file leaf-file-name="handleservletpot.sh" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/handleservletpot.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="116" selection-start="676" selection-end="676" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="kippo.pp" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/kippo.pp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="31" selection-start="104" selection-end="104" vertical-scroll-proportion="0.1521739">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="copyonmaster.sh" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/copyonmaster.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="68" selection-start="376" selection-end="376" vertical-scroll-proportion="0.0">
+            <state line="13" column="0" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -159,37 +128,64 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="kippo.sh" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kippo.sh">
+      <file leaf-file-name="copyonmaster.sh" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/copyonmaster.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="72" selection-end="72" vertical-scroll-proportion="0.0">
+            <state line="5" column="68" selection-start="376" selection-end="376" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="servletpot.pp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/servletpot.pp">
+      <file leaf-file-name="sshd_config" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sshd_config">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="62" selection-start="378" selection-end="378" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="technical_info_puppet.txt" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="technical_info_puppet.txt" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/technical_info_puppet.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="0" selection-start="1433" selection-end="1513" vertical-scroll-proportion="0.0">
+            <state line="67" column="79" selection-start="1512" selection-end="1512" vertical-scroll-proportion="0.8506401">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mysql.sql" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mysql.sql">
+      <file leaf-file-name="logfile" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/logfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="26" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0">
+            <state line="1" column="0" selection-start="2" selection-end="2" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tomcact_context.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tomcact_context.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="18" selection-start="418" selection-end="418" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="basesetup.pp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/basesetup.pp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="44" column="217" selection-start="1083" selection-end="1083" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="copy.sh" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/copy.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="46" selection-start="726" selection-end="726" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -213,19 +209,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/technical_info_puppet.txt" />
         <option value="$PROJECT_DIR$/copyonmaster.sh" />
         <option value="$PROJECT_DIR$/handleservletpot.sh" />
-        <option value="$PROJECT_DIR$/basesetup.pp" />
         <option value="$PROJECT_DIR$/installdb.pp" />
         <option value="$PROJECT_DIR$/site.pp" />
         <option value="$PROJECT_DIR$/servletpot.pp" />
         <option value="$PROJECT_DIR$/mysql.sql" />
-        <option value="$PROJECT_DIR$/base.pp" />
         <option value="$PROJECT_DIR$/kippo.sh" />
-        <option value="$PROJECT_DIR$/copy.sh" />
         <option value="$PROJECT_DIR$/readme.txt" />
         <option value="$PROJECT_DIR$/kippo.pp" />
+        <option value="$PROJECT_DIR$/logfile" />
+        <option value="$PROJECT_DIR$/basesetup.pp" />
+        <option value="$PROJECT_DIR$/tomcact_context.xml" />
+        <option value="$PROJECT_DIR$/base.pp" />
+        <option value="$PROJECT_DIR$/copy.sh" />
+        <option value="$PROJECT_DIR$/sshd_config" />
+        <option value="$PROJECT_DIR$/technical_info_puppet.txt" />
       </list>
     </option>
   </component>
@@ -288,8 +287,8 @@
     <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -304,6 +303,19 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -332,19 +344,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -418,10 +417,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="874" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -435,9 +433,10 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964131" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16212338" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14275466" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -509,87 +508,69 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sshd_config">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fileserver.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/installdb.pp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="4" selection-start="192" selection-end="192" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="8" column="4" selection-start="192" selection-end="192" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/site.pp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="104" selection-start="224" selection-end="224" vertical-scroll-proportion="0.0">
+        <state line="9" column="104" selection-start="224" selection-end="224" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/servletpot.pp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="62" selection-start="378" selection-end="378" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysql.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="7" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kippo.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="72" selection-end="72" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kippo.pp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="32" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/handleservletpot.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="30" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0">
+        <state line="13" column="0" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/servletpot.pp">
+    <entry file="file://$PROJECT_DIR$/logfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="62" selection-start="378" selection-end="378" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysql.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="26" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0">
+        <state line="1" column="0" selection-start="2" selection-end="2" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/basesetup.pp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="116" selection-start="676" selection-end="676" vertical-scroll-proportion="0.0">
+        <state line="44" column="217" selection-start="1083" selection-end="1083" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/base.pp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="127" selection-end="127" vertical-scroll-proportion="0.0">
+        <state line="41" column="59" selection-start="807" selection-end="807" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/copy.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="610" selection-end="610" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kippo.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="72" selection-end="72" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/technical_info_puppet.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="0" selection-start="1433" selection-end="1513" vertical-scroll-proportion="0.0">
+        <state line="15" column="46" selection-start="726" selection-end="726" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -601,6 +582,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tomcact_context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="18" selection-start="418" selection-end="418" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/copyonmaster.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="68" selection-start="376" selection-end="376" vertical-scroll-proportion="0.0">
@@ -608,9 +596,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kippo.pp">
+    <entry file="file://$PROJECT_DIR$/sshd_config">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="31" selection-start="104" selection-end="104" vertical-scroll-proportion="0.1521739">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technical_info_puppet.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="79" selection-start="1512" selection-end="1512" vertical-scroll-proportion="0.8506401">
           <folding />
         </state>
       </provider>
