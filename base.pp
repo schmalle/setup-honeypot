@@ -33,4 +33,13 @@
   file { '/data/honeypot/handleservletpot.sh':
     source => 'puppet://flakedev.no-ip.org/honeypot/handleservletpot.sh'
   }
+
+  file { '/etc/tomcat7/context.xml':
+    source => 'puppet://flakedev.no-ip.org/honeypot/tomcat_context.xml'
+  }
+
+
+    Package['openssh-server'] -> File['/etc/ssh/sshd_config']
+    Package['tomcat7'] -> File['/etc/tomcat7/context.xml']
+
 }
