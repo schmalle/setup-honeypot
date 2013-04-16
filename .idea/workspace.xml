@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91f8a4bf-0178-4e3d-9f02-61ba01b62fe5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logfile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tomcact_context.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base.pp" afterPath="$PROJECT_DIR$/base.pp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/basesetup.pp" afterPath="$PROJECT_DIR$/basesetup.pp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/copy.sh" afterPath="$PROJECT_DIR$/copy.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sshd_config" afterPath="$PROJECT_DIR$/sshd_config" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/technical_info_puppet.txt" afterPath="$PROJECT_DIR$/technical_info_puppet.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kippo.cfg.dist" afterPath="$PROJECT_DIR$/kippo.cfg.dist" />
     </list>
     <ignored path="setup-honeypot.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,6 +35,7 @@
     <file path="/mysql.sql" changelist="91f8a4bf-0178-4e3d-9f02-61ba01b62fe5" time="1365364577440" ignored="false" />
     <file path="/readme.txt" changelist="91f8a4bf-0178-4e3d-9f02-61ba01b62fe5" time="1365451565699" ignored="false" />
     <file path="/tomcact_context.xml" changelist="91f8a4bf-0178-4e3d-9f02-61ba01b62fe5" time="1365622632970" ignored="false" />
+    <file path="/README.md" changelist="91f8a4bf-0178-4e3d-9f02-61ba01b62fe5" time="1365928857745" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,24 +96,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="base.pp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/base.pp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="59" selection-start="807" selection-end="807" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="handleservletpot.sh" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/handleservletpot.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="readme.txt" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/readme.txt">
           <provider selected="true" editor-type-id="text-editor">
@@ -146,19 +123,46 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="technical_info_puppet.txt" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="technical_info_puppet.txt" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/technical_info_puppet.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="79" selection-start="1512" selection-end="1512" vertical-scroll-proportion="0.8506401">
+            <state line="27" column="102" selection-start="534" selection-end="534" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="logfile" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/logfile">
+      <file leaf-file-name="kippo.pp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kippo.pp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="2" selection-end="2" vertical-scroll-proportion="0.0">
+            <state line="13" column="32" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="site.pp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site.pp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="104" selection-start="224" selection-end="224" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="kippo.cfg.dist" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/kippo.cfg.dist">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="134" column="0" selection-start="3470" selection-end="3470" vertical-scroll-proportion="0.16785206">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="0" selection-start="150" selection-end="150" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -168,15 +172,6 @@
         <entry file="file://$PROJECT_DIR$/tomcact_context.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state line="7" column="18" selection-start="418" selection-end="418" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="basesetup.pp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/basesetup.pp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="217" selection-start="1083" selection-end="1083" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -209,8 +204,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/copyonmaster.sh" />
-        <option value="$PROJECT_DIR$/handleservletpot.sh" />
         <option value="$PROJECT_DIR$/installdb.pp" />
         <option value="$PROJECT_DIR$/site.pp" />
         <option value="$PROJECT_DIR$/servletpot.pp" />
@@ -225,6 +218,8 @@
         <option value="$PROJECT_DIR$/copy.sh" />
         <option value="$PROJECT_DIR$/sshd_config" />
         <option value="$PROJECT_DIR$/technical_info_puppet.txt" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/kippo.cfg.dist" />
       </list>
     </option>
   </component>
@@ -508,21 +503,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/installdb.pp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="4" selection-start="192" selection-end="192" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site.pp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="104" selection-start="224" selection-end="224" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/servletpot.pp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="62" selection-start="378" selection-end="378" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mysql.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="7" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0" />
@@ -531,13 +511,6 @@
     <entry file="file://$PROJECT_DIR$/kippo.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="0" selection-start="72" selection-end="72" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kippo.pp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="32" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/handleservletpot.sh">
@@ -603,9 +576,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="150" selection-end="150" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/technical_info_puppet.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="79" selection-start="1512" selection-end="1512" vertical-scroll-proportion="0.8506401">
+        <state line="27" column="102" selection-start="534" selection-end="534" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kippo.pp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="32" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site.pp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="104" selection-start="224" selection-end="224" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kippo.cfg.dist">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="134" column="0" selection-start="3470" selection-end="3470" vertical-scroll-proportion="0.16785206">
           <folding />
         </state>
       </provider>
