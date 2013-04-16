@@ -1,4 +1,5 @@
- class base {
+ class base
+ {
 
     package { 'openssh-server':
 
@@ -33,6 +34,12 @@
   file { '/data/honeypot/handleservletpot.sh':
     source => 'puppet://flakedev.no-ip.org/honeypot/handleservletpot.sh'
   }
+
+
+  file { '/data/honeypot/handlepuppetcron.sh':
+    source => 'puppet://flakedev.no-ip.org/honeypot/handlepuppetcron.sh'
+  }
+
 
   file { '/etc/tomcat7/context.xml':
     source => 'puppet://flakedev.no-ip.org/honeypot/tomcat_context.xml'

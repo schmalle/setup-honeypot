@@ -1,4 +1,4 @@
-node default 
+node none
 {
     include basesetup
     include installdb
@@ -8,5 +8,12 @@ node default
     include servletpot
 
     Class['basesetup'] ->  Class['installdb'] ->  Class['base'] ->  Class['kippo'] ->  Class['servletpot']
+
+}
+
+
+node default
+{
+    include ewsposter
 
 }

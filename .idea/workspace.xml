@@ -2,20 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91f8a4bf-0178-4e3d-9f02-61ba01b62fe5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kippo.cfg.dist" afterPath="$PROJECT_DIR$/kippo.cfg.dist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ews.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ewsposter.pp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/handlepuppetcron.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base.pp" afterPath="$PROJECT_DIR$/base.pp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/copy.sh" afterPath="$PROJECT_DIR$/copy.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/copyonmaster.sh" afterPath="$PROJECT_DIR$/copyonmaster.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fileserver.conf" afterPath="$PROJECT_DIR$/fileserver.conf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site.pp" afterPath="$PROJECT_DIR$/site.pp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/technical_info_puppet.txt" afterPath="$PROJECT_DIR$/technical_info_puppet.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="setup-honeypot.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="91f8a4bf-0178-4e3d-9f02-61ba01b62fe5" time="1365926903612" ignored="false" />
-    <file path="/base.pp" changelist="91f8a4bf-0178-4e3d-9f02-61ba01b62fe5" time="1365622781695" ignored="false" />
+    <file path="/Dummy.txt" changelist="91f8a4bf-0178-4e3d-9f02-61ba01b62fe5" time="1366136196481" ignored="false" />
+    <file path="/base.pp" changelist="91f8a4bf-0178-4e3d-9f02-61ba01b62fe5" time="1366113151792" ignored="false" />
     <file path="/basesetup.pp" changelist="91f8a4bf-0178-4e3d-9f02-61ba01b62fe5" time="1365622459410" ignored="false" />
     <file path="/kippo.pp" changelist="91f8a4bf-0178-4e3d-9f02-61ba01b62fe5" time="1365451639991" ignored="false" />
-    <file path="/site.pp" changelist="91f8a4bf-0178-4e3d-9f02-61ba01b62fe5" time="1365362836768" ignored="false" />
+    <file path="/site.pp" changelist="91f8a4bf-0178-4e3d-9f02-61ba01b62fe5" time="1366136618033" ignored="false" />
     <file path="/servletpot.pp" changelist="91f8a4bf-0178-4e3d-9f02-61ba01b62fe5" time="1365363611290" ignored="false" />
-    <file path="/copyonmaster.sh" changelist="91f8a4bf-0178-4e3d-9f02-61ba01b62fe5" time="1365359879090" ignored="false" />
-    <file path="/copy.sh" changelist="91f8a4bf-0178-4e3d-9f02-61ba01b62fe5" time="1365623378447" ignored="false" />
-    <file path="/technical_info_puppet.txt" changelist="91f8a4bf-0178-4e3d-9f02-61ba01b62fe5" time="1365928692518" ignored="false" />
+    <file path="/copyonmaster.sh" changelist="91f8a4bf-0178-4e3d-9f02-61ba01b62fe5" time="1366141222156" ignored="false" />
+    <file path="/copy.sh" changelist="91f8a4bf-0178-4e3d-9f02-61ba01b62fe5" time="1366143020259" ignored="false" />
+    <file path="/technical_info_puppet.txt" changelist="91f8a4bf-0178-4e3d-9f02-61ba01b62fe5" time="1366144156939" ignored="false" />
     <file path="$PROJECT_DIR$/../IdeaProjects/scanit_scanner/scannerscripts/arachni.sh" changelist="91f8a4bf-0178-4e3d-9f02-61ba01b62fe5" time="1364930566146" ignored="false" />
     <file path="$PROJECT_DIR$/../IdeaProjects/scanit_scanner/copy.sh" changelist="91f8a4bf-0178-4e3d-9f02-61ba01b62fe5" time="1364930584721" ignored="false" />
     <file path="$PROJECT_DIR$/../IdeaProjects/GSC-Voting/src/com/dtag/quiz/client/ASyncCallBackQuestion.java" changelist="91f8a4bf-0178-4e3d-9f02-61ba01b62fe5" time="1365159299810" ignored="false" />
@@ -36,6 +44,10 @@
     <file path="/readme.txt" changelist="91f8a4bf-0178-4e3d-9f02-61ba01b62fe5" time="1365451565699" ignored="false" />
     <file path="/tomcact_context.xml" changelist="91f8a4bf-0178-4e3d-9f02-61ba01b62fe5" time="1365622632970" ignored="false" />
     <file path="/README.md" changelist="91f8a4bf-0178-4e3d-9f02-61ba01b62fe5" time="1365928857745" ignored="false" />
+    <file path="/handlepuppetcron.sh" changelist="91f8a4bf-0178-4e3d-9f02-61ba01b62fe5" time="1366113599050" ignored="false" />
+    <file path="/ewsposter.pp" changelist="91f8a4bf-0178-4e3d-9f02-61ba01b62fe5" time="1366142758079" ignored="false" />
+    <file path="/fileserver.conf" changelist="91f8a4bf-0178-4e3d-9f02-61ba01b62fe5" time="1366143520553" ignored="false" />
+    <file path="/ews.py" changelist="91f8a4bf-0178-4e3d-9f02-61ba01b62fe5" time="1366136653075" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +62,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -86,7 +99,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -96,10 +108,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="readme.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/readme.txt">
+      <file leaf-file-name="technical_info_puppet.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/technical_info_puppet.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="28" selection-start="61" selection-end="61" vertical-scroll-proportion="0.0">
+            <state line="43" column="106" selection-start="1054" selection-end="1054" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -108,70 +120,43 @@
       <file leaf-file-name="copyonmaster.sh" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/copyonmaster.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="68" selection-start="376" selection-end="376" vertical-scroll-proportion="0.0">
+            <state line="8" column="66" selection-start="631" selection-end="631" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sshd_config" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sshd_config">
+      <file leaf-file-name="base.pp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/base.pp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="41" column="0" selection-start="759" selection-end="759" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="technical_info_puppet.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/technical_info_puppet.txt">
+      <file leaf-file-name="basesetup.pp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/basesetup.pp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="102" selection-start="534" selection-end="534" vertical-scroll-proportion="0.0">
+            <state line="44" column="217" selection-start="1083" selection-end="1083" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="kippo.pp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kippo.pp">
+      <file leaf-file-name="ews.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ews.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="32" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0">
+            <state line="0" column="7" selection-start="7" selection-end="7" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="site.pp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/site.pp">
+      <file leaf-file-name="ewsposter.pp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ewsposter.pp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="104" selection-start="224" selection-end="224" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="kippo.cfg.dist" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/kippo.cfg.dist">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="134" column="0" selection-start="3470" selection-end="3470" vertical-scroll-proportion="0.16785206">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="150" selection-end="150" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tomcact_context.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tomcact_context.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="18" selection-start="418" selection-end="418" vertical-scroll-proportion="0.0">
+            <state line="40" column="0" selection-start="742" selection-end="742" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -180,7 +165,34 @@
       <file leaf-file-name="copy.sh" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/copy.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="46" selection-start="726" selection-end="726" vertical-scroll-proportion="0.0">
+            <state line="26" column="45" selection-start="1120" selection-end="1120" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fileserver.conf" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/fileserver.conf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="26" selection-start="96" selection-end="96" vertical-scroll-proportion="0.10330579">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="site.pp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site.pp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="9" selection-start="9" selection-end="9" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="installdb.pp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/installdb.pp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -204,22 +216,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/installdb.pp" />
-        <option value="$PROJECT_DIR$/site.pp" />
-        <option value="$PROJECT_DIR$/servletpot.pp" />
-        <option value="$PROJECT_DIR$/mysql.sql" />
-        <option value="$PROJECT_DIR$/kippo.sh" />
-        <option value="$PROJECT_DIR$/readme.txt" />
         <option value="$PROJECT_DIR$/kippo.pp" />
         <option value="$PROJECT_DIR$/logfile" />
         <option value="$PROJECT_DIR$/basesetup.pp" />
         <option value="$PROJECT_DIR$/tomcact_context.xml" />
-        <option value="$PROJECT_DIR$/base.pp" />
-        <option value="$PROJECT_DIR$/copy.sh" />
         <option value="$PROJECT_DIR$/sshd_config" />
-        <option value="$PROJECT_DIR$/technical_info_puppet.txt" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/kippo.cfg.dist" />
+        <option value="$PROJECT_DIR$/base.pp" />
+        <option value="$PROJECT_DIR$/handlepuppetcron.sh" />
+        <option value="$PROJECT_DIR$/site.pp" />
+        <option value="$PROJECT_DIR$/ews.py" />
+        <option value="$PROJECT_DIR$/copyonmaster.sh" />
+        <option value="$PROJECT_DIR$/ewsposter.pp" />
+        <option value="$PROJECT_DIR$/copy.sh" />
+        <option value="$PROJECT_DIR$/fileserver.conf" />
+        <option value="$PROJECT_DIR$/technical_info_puppet.txt" />
       </list>
     </option>
   </component>
@@ -254,7 +266,12 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope">
+        <subPane subId="Project Files" />
+      </pane>
+      <pane id="PackagesPane">
+        <subPane />
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -265,7 +282,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -503,26 +519,58 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mysql.sql">
+    <entry file="file://$PROJECT_DIR$/handlepuppetcron.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="7" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kippo.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="72" selection-end="72" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/handleservletpot.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0">
+        <state line="15" column="0" selection-start="270" selection-end="270" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/logfile">
+    <entry file="file://$PROJECT_DIR$/handleservletpot.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="2" selection-end="2" vertical-scroll-proportion="0.0">
+        <state line="3" column="0" selection-start="0" selection-end="251" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kippo.pp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="0" selection-start="609" selection-end="728" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/servletpot.pp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kippo.cfg.dist">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/installdb.pp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base.pp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="0" selection-start="759" selection-end="759" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -534,79 +582,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/base.pp">
+    <entry file="file://$PROJECT_DIR$/ews.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="59" selection-start="807" selection-end="807" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/copy.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="46" selection-start="726" selection-end="726" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/readme.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="28" selection-start="61" selection-end="61" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tomcact_context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="18" selection-start="418" selection-end="418" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/copyonmaster.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="68" selection-start="376" selection-end="376" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sshd_config">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="150" selection-end="150" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/technical_info_puppet.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="102" selection-start="534" selection-end="534" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kippo.pp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="32" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0">
+        <state line="0" column="7" selection-start="7" selection-end="7" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/site.pp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="104" selection-start="224" selection-end="224" vertical-scroll-proportion="0.0">
+        <state line="0" column="9" selection-start="9" selection-end="9" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kippo.cfg.dist">
+    <entry file="file://$PROJECT_DIR$/copyonmaster.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="134" column="0" selection-start="3470" selection-end="3470" vertical-scroll-proportion="0.16785206">
+        <state line="8" column="66" selection-start="631" selection-end="631" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/copy.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="45" selection-start="1120" selection-end="1120" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technical_info_puppet.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="106" selection-start="1054" selection-end="1054" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ewsposter.pp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="0" selection-start="742" selection-end="742" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fileserver.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="26" selection-start="96" selection-end="96" vertical-scroll-proportion="0.10330579">
           <folding />
         </state>
       </provider>

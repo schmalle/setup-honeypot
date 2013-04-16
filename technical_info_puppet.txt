@@ -2,7 +2,9 @@
 
 -- in progress, dont use for now --
 
-This short guide describe
+This short guide describes the installation of both puppet master and agent.
+
+Puppet is installed on Ubuntu 12.04 / 10 under /usr/share/puppet/.
 
 
 Setup for the server:
@@ -39,7 +41,7 @@ Enable communications between client and server:
 
 1. Start the client and first ensure, that the client can communicate with the server
 
-sudo  puppet agent --test --waitforcert 30 -v --server <your server name>
+sudo  puppet agent --test --waitforcert 30 -v --server <your server name>  --certname <name of your client>
 
 2. On the server check, if the certificate request arrived: 
 
