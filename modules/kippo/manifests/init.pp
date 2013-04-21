@@ -1,9 +1,7 @@
 class kippo
 {
 
-    package { 'subversion':
-      ensure => present,
-    }
+   
 
 
     package { 'authbind':
@@ -44,7 +42,7 @@ class kippo
     source => "puppet://$puppetMaster/honeypot_data/kippo.sh"
   }
 
-    Package['subversion'] -> Exec['Kippo-Checkout'] -> Exec['Install Kippo-DB'] -> File['/data/honeypot/kippo-read-only/kippo.cfg'] -> File['/data/honeypot/kippo-read-only/start.sh']
+    Exec['Kippo-Checkout'] -> Exec['Install Kippo-DB'] -> File['/data/honeypot/kippo-read-only/kippo.cfg'] -> File['/data/honeypot/kippo-read-only/start.sh']
 
     Package['authbind'] -> File['/data/honeypot/kippo.sh'] -> Exec['Authbind'] -> Package['python-twisted']
 
