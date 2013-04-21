@@ -28,15 +28,15 @@ class kippo
 
 
   file { '/data/honeypot/kippo-read-only/kippo.cfg':
-    source => 'puppet://flakedev.no-ip.org/honeypot/kippo.cfg'
+    source => "puppet://$puppetMaster/honeypot_data/kippo.cfg"
   }
 
   file { '/data/honeypot/kippo-read-only/start.sh':
-    source => 'puppet://flakedev.no-ip.org/honeypot/start.sh'
+    source => "puppet://$puppetMaster/honeypot_data/start.sh"
   }
 
   file { '/data/honeypot/kippo.sh':
-    source => 'puppet://flakedev.no-ip.org/honeypot/kippo.sh'
+    source => "puppet://$puppetMaster/honeypot_data/kippo.sh"
   }
 
     Exec['Kippo-Checkout'] -> Exec['Install Kippo-DB'] -> File['/data/honeypot/kippo-read-only/kippo.cfg'] -> File['/data/honeypot/kippo-read-only/start.sh']

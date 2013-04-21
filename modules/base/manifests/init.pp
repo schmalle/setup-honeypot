@@ -28,21 +28,21 @@
     }
 
   file { '/etc/ssh/sshd_config':
-    source => 'puppet://flakedev.no-ip.org/honeypot/sshd_config'
+    source => "puppet://$puppetMaster/honeypot_data/sshd_config"
   }
 
   file { '/data/honeypot/handleservletpot.sh':
-    source => 'puppet://flakedev.no-ip.org/honeypot/handleservletpot.sh'
+    source => "puppet://$puppetMaster/honeypot_data/handleservletpot.sh"
   }
 
 
   file { '/data/honeypot/handlepuppetcron.sh':
-    source => 'puppet://flakedev.no-ip.org/honeypot/handlepuppetcron.sh'
+    source => "puppet://$puppetMaster/honeypot_data/handlepuppetcron.sh"
   }
 
 
   file { '/etc/tomcat7/context.xml':
-    source => 'puppet://flakedev.no-ip.org/honeypot/tomcat_context.xml'
+    source => "puppet://$puppetMaster/honeypot_data/tomcat_context.xml"
   }
 
 

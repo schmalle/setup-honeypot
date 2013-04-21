@@ -1,0 +1,4 @@
+https://github.com/yorrick/puppet
+
+http://www.dammekens.be/2013/04/04/packaging-puppet-3-1-1-for-arm-raspberry-pi/
+

@@ -5,7 +5,7 @@ class installdb {
     }
 
     file { '/data/honeypot/mysql.sql':
-       source => 'puppet://flakedev.no-ip.org/honeypot/mysql.sql'
+       source => "puppet://$puppetMaster/honeypot_data/mysql.sql"
     }
 
     exec { "Install DB":

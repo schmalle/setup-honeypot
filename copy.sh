@@ -24,7 +24,9 @@ scp -P $2 mysql.sql $3@$1:/data/honeypot/mysql.sql
 scp -P $2 kippo.pp $3@$1:/data/honeypot/kippo.pp
 scp -P $2 ewsposter.pp $3@$1:/data/honeypot/ewsposter.pp
 scp -P $2 ews.py $3@$1:/data/honeypot/ews.py
-scp -P $2 ews.py $3@$1:/data/honeypot/ews.cfg
+scp -P $2 ews.cfg.default $3@$1:/data/honeypot/ews.cfg
+
+scp -P $2 type.conf $3@$1:/data/honeypot/type.conf
 
 scp -P $2 base.pp $3@$1:/data/honeypot/base.pp
 scp -P $2 installdb.pp $3@$1:/data/honeypot/installdb.pp
