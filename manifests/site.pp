@@ -1,4 +1,4 @@
-node none
+node flakedummy
 {
 #    include basesetup
 #    include installdb
