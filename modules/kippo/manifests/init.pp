@@ -1,7 +1,7 @@
 class kippo
 {
 
-    package { 'svn':
+    package { 'subversion':
       ensure => present,
     }
 
