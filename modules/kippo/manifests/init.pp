@@ -31,7 +31,7 @@ class kippo
 
 
   file { '/data/honeypot/kippo-read-only/kippo.cfg':
-    source => "puppet://$puppetMaster/honeypot_data/kippo.cfg"
+    source => "puppet://$puppetMaster/honeypot_data/kippo.cfg.dist"
   }
 
   file { '/data/honeypot/kippo-read-only/start.sh':
