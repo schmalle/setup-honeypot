@@ -17,7 +17,7 @@ class kippo
 
     exec { "Install Kippo-DB":
         path => "/bin:/usr/bin",
-        command => "mysql kippo -u root < /data/honeypot/kippo-read-only/doc/sql/mysql.sql"
+        command => "mysql kippo -u root < /data/honeypot/kippo-read-only/doc/sql/mysql.sql",
 
   			subscribe => File["/data/honeypot/kippo-read-only/kippo.cfg"],
   			refreshonly => true  
