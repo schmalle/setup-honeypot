@@ -14,5 +14,4 @@ node flakedummy
 node default
 {
     include ewsposter
-
 }
