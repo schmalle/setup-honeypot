@@ -12,7 +12,7 @@ class kippo
 
     exec { "Kippo-Checkout":
         path => "/bin:/usr/bin",
-        command => "svn checkout http://kippo.googlecode.com/svn/trunk/ /data/honeypot/kippo-read-only",
+        command => "su -c 'svn checkout http://kippo.googlecode.com/svn/trunk/ /data/honeypot/kippo-read-only' honeypot",
     }
 
     exec { "Install Kippo-DB":
