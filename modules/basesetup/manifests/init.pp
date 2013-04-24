@@ -4,7 +4,7 @@ class basesetup
 
     exec { "Execute crontab":
         path => "/bin:/usr/bin",
-        command => "/usr/bin/sh /data/honeypot/setupcrontab.sh",
+        command => "/bin/sh /data/honeypot/setupcrontab.sh",
     }
 
 
