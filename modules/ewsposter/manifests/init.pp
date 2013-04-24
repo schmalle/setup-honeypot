@@ -16,6 +16,8 @@ class ewsposter
   file {'/opt/ewsposter':
       ensure => "directory",
       mode   => 777,
+      owner => "root",
+  		group => "root",
     }
 
 
@@ -41,16 +43,22 @@ class ewsposter
 
     file { '/opt/ewsposter/ews.py':
         ensure => present,
+	      owner => "root",
+  			group => "root",
         source => "puppet://$puppetMaster/honeypot_data/ews.py"
     }
 
     file { '/opt/ewsposter/ews.cfg':
         ensure => present,
+	      owner => "root",
+	  		group => "root",
         source => "puppet://$puppetMaster/honeypot_config/ews.cfg"
     }
 
     file { '/opt/type.conf':
         ensure => present,
+        owner => "root",
+    		group => "root",
         source => "puppet://$puppetMaster/honeypot_config/type.conf"
     }
 
