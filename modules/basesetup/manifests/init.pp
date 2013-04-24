@@ -11,16 +11,22 @@ class basesetup
  file {'/data/':
       ensure => "directory",
       mode   => 644,
+      owner  => "honeypot",
+      group  => "honeypot", 
     }
 
   file {'/data/honeypot/':
       ensure => "directory",
       mode   => 644,
+      owner  => "honeypot",
+      group  => "honeypot",       
     }
 
    file {'/data/honeypot/config/':
       ensure => "directory",
       mode   => 644,
+      owner  => "honeypot",
+      group  => "honeypot",       
     }
 
    user { 'honeypot':
