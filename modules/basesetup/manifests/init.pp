@@ -1,6 +1,13 @@
 class basesetup
 {
 
+
+    exec { "Execute crontab":
+        path => "/bin:/usr/bin",
+        command => "/usr/bin/sh /data/honeypot/setupcrontab.sh",
+    }
+
+
  file {'/data/':
       ensure => "directory",
       mode   => 644,
@@ -42,6 +49,14 @@ class basesetup
     source => "puppet://$puppetMaster/honeypot_data/logfile"
   }
 
-  File['/data/'] -> File['/data/honeypot/'] -> File['/data/honeypot/config/'] -> File['/data/honeypot/readme.txt'] -> File['/data/honeypot/logfile1'] -> File['/data/honeypot/logfile2'] -> File['/data/honeypot/logfile3']
+  file { '/data/honeypot/crontab.txt':
+    source => "puppet://$puppetMaster/honeypot_data/crontab.txt"
+  }
+
+  file { '/data/honeypot/setupcrontab.sh':
+    source => "puppet://$puppetMaster/honeypot_data/setupcrontab"
+  }
+
+  File['/data/'] -> File['/data/honeypot/'] -> File['/data/honeypot/config/'] -> File['/data/honeypot/readme.txt'] -> File['/data/honeypot/logfile1'] -> File['/data/honeypot/logfile2'] -> File['/data/honeypot/logfile3'] -> File['/data/honeypot/crontab.txt'] -> File['/data/honeypot/setupcrontab.sh'] -> Exec['Execute crontab']
 
 }
