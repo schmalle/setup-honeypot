@@ -6,6 +6,7 @@ node flakedummy
     include base
     include kippo
     include cron
+    include ewsposter
     
 #    include servletpot
 
@@ -14,7 +15,7 @@ node flakedummy
 
 		cron::job{
   		'mysqlbackup':
-    	minute      => '*/5',
+    	minute      => '*/5	',
     	hour        => '*',
     	date        => '*',
     	month       => '*',
