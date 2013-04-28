@@ -13,3 +13,8 @@ Included honeypots:
 Kippo
 Servletpot
 
+Important information:
+
+SSH Port ist moved to 60022
+
+Start kippo with "su honeypot -c ./start.sh"
