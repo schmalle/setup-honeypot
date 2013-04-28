@@ -15,7 +15,7 @@ node flakedummy
 
 		cron::job{
   		'mysqlbackup':
-    	minute      => '*/5	',
+    	minute      => '*/5',
     	hour        => '*',
     	date        => '*',
     	month       => '*',
