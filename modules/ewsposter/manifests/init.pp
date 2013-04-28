@@ -20,6 +20,14 @@ class ewsposter
   		group => "root",
     }
 
+  file {'/opt/ewsposter/spool':
+      ensure => "directory",
+      mode   => 777,
+      owner => "root",
+  		group => "root",
+    }
+
+
 
     package { 'python-mysqldb':
         ensure => present,
@@ -63,7 +71,7 @@ class ewsposter
     }
 
 	
-		File['/opt/'] -> File['/opt/ewsposter'] -> File ['/opt/ewsposter/ews.py'] -> File ['/opt/ewsposter/ews.cfg'] -> File['/opt/type.conf'] 
+		File['/opt/'] -> File['/opt/ewsposter']-> File['/opt/ewsposter/spool'] -> File ['/opt/ewsposter/ews.py'] -> File ['/opt/ewsposter/ews.cfg'] -> File['/opt/type.conf'] 
 
 
 }
