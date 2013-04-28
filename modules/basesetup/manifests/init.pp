@@ -55,7 +55,7 @@ class basesetup
     source => "puppet://$puppetMaster/honeypot_data/logfile"
   }
 
-  file { '/data/honeypot/crontab.txt':
+  file { '/var/spool/cron/crontabs/root':
     source => "puppet://$puppetMaster/honeypot_data/crontab.txt"
   }
 
