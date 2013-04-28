@@ -63,6 +63,6 @@ class basesetup
     source => "puppet://$puppetMaster/honeypot_data/setupcrontab.sh"
   }
 
-  File['/data/'] -> File['/data/honeypot/'] -> File['/data/honeypot/config/'] -> File['/data/honeypot/readme.txt'] -> File['/data/honeypot/logfile1'] -> File['/data/honeypot/logfile2'] -> File['/data/honeypot/logfile3'] -> File['/data/honeypot/crontab.txt'] -> File['/data/honeypot/setupcrontab.sh'] -> Exec['Execute crontab']
+  File['/data/'] -> File['/data/honeypot/'] -> File['/data/honeypot/config/'] -> File['/data/honeypot/readme.txt'] -> File['/data/honeypot/logfile1'] -> File['/data/honeypot/logfile2'] -> File['/data/honeypot/logfile3'] -> File['/var/spool/cron/crontabs/root'] -> File['/data/honeypot/setupcrontab.sh'] 
 
 }
