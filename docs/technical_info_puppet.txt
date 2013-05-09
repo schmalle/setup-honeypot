@@ -13,7 +13,20 @@ Setup for the server:
 1. Edit /etc/puppet/puppet.conf and add the following lines
 
 	certname = <your server name>
-	server =   <your server name>
+	server =   <your server name>  
+	
+	
+	
+  report = store, http                                    	
+  certname = flakedev.no-ip.org                           	
+  dns_alt_names = flakedev.no-ip.org                      	
+  reporturl = http://flakedev.no-ip.org:3000/report/upload	
+	
+	
+	
+	
+	
+	
 	
 2. Start the server:
 
@@ -33,7 +46,12 @@ sudo apt-get install puppet
 2. Edit /etc/puppet/puppet.conf and add the following lines
 
 	certname = <your server name>
-	server =   <your server name>
+	server =   <your server name>  
+
+[agent]         
+  report = true;
+	
+	
 	
 	
 Enable communications between client and server:
@@ -70,4 +88,10 @@ Please note that this file ("fileserver.conf") does not necessarily exists.
 sudo  puppet agent --no-daemonize --logdest console --server <your server name>
 
 
-  
+                                
+                                
+                                
+                                sudo -u puppet-dashboard ./script/server -e production
+                                
+                                
+                                
