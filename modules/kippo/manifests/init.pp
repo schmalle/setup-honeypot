@@ -8,6 +8,10 @@ class kippo
     package { 'python-twisted':
       ensure => present,
     }
+    
+    package { 'python-MySQLdb':
+     ensure => present,
+    }
 
 
     exec { "Kippo-Checkout":

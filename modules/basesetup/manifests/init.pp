@@ -8,6 +8,19 @@ class basesetup
 #    }
 
 
+ package {'python-mysqldb',
+      ensure => present,
+      }  
+
+ package {'ant',
+      ensure => present,
+      } 
+
+ package {'openjdk-7-jdk',
+      ensure => present,
+      }
+
+
  file {'/data/':
       ensure => "directory",
       mode   => 644,
