@@ -16,9 +16,7 @@ class basesetup
       ensure => present,
       } 
 
- package {'openjdk-7-jdk':
-      ensure => present,
-      }
+
 
 
  file {'/data/':
