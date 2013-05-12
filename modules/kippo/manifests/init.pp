@@ -9,7 +9,7 @@ class kippo
       ensure => present,
     }
     
-    package { 'python-MySQLdb':
+    package { 'python-mysqldb':
      ensure => present,
     }
 

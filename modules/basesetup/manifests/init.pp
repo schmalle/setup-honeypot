@@ -8,15 +8,15 @@ class basesetup
 #    }
 
 
- package {'python-mysqldb',
+ package {'python-mysqldb':
       ensure => present,
       }  
 
- package {'ant',
+ package {'ant':
       ensure => present,
       } 
 
- package {'openjdk-7-jdk',
+ package {'openjdk-7-jdk':
       ensure => present,
       }
 
