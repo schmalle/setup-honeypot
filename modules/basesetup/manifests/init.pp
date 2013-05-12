@@ -8,9 +8,7 @@ class basesetup
 #    }
 
 
- package {'python-mysqldb':
-      ensure => present,
-      }  
+ 
 
  package {'ant':
       ensure => present,
